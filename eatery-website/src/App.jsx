@@ -4,6 +4,7 @@ import Navbar from './components/Navbar.jsx'
 import Landing from './components/Landing.jsx'
 import Intro from './components/Intro.jsx'
 import Testimonial from './components/Testimonial.jsx'
+import Menu from './components/Menu.jsx'
 
 
 
@@ -16,6 +17,8 @@ function App() {
       <Landing />
       <Testimonial />
       <Intro />
+      <Menu />
+    
       
     </>
   )
