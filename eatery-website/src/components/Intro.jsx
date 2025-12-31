@@ -22,8 +22,7 @@ const Intro = () => {
 
             </div>
             <div className="w-auto px-3.5 py-5 text-center md:text-start">
-                <h1 
-                className="leading animate-fade-in duration-75 transition-opacity font-light text-4xl md:text-5xl lg:text-6xl text-start font-monospace text-amber-500">Our Story</h1>
+                <h1 className="leading animate-fade-in duration-75 transition-opacity font-light text-4xl md:text-5xl lg:text-6xl text-start font-monospace text-amber-500">Our Story</h1>
                 <br />
                 <p
             
