@@ -58,15 +58,15 @@ const Menu = () => {
         <h1 className="text-5xl md:text-6xl text-amber-500 font-extrabold font-stretch-75%  py-2 ps-1.5">Menu</h1>
         <br />
         <ul className="text-amber-500 text-2xl text-start">
-          <li className="py-2.5 scroll-py-1.5 font-light ">Club Sandwiches - GHC28.00</li>
-          <li className="py-2.5 scroll-py-1.5 font-light">Jollof Rice w/ Chicken - GHC35.00</li>
-          <li className="py-2.5 scroll-py-1.5 font-light">Fried Rice w/ fish or chicken - GHC15.00</li>
-          <li className="py-2.5 scroll-py-1.5 font-light">Club Sandwiches - GHC28.00</li>
-          <li className="py-2.5 scroll-py-1.5 font-light">Jollof Rice w/ Chicken - GHC35.00</li>
-          <li className="py-2.5 scroll-py-1.5 font-light">Fried Rice w/ fish or chicken - GHC15.00</li>
-          <li className="py-2.5 scroll-py-1.5 font-light">Club Sandwiches - GHC28.00</li>
-          <li className="py-2.5 scroll-py-1.5 font-light">Jollof Rice w/ Chicken - GHC35.00</li>
-          <li className="py-2.5 scroll-py-1.5 font-light">Fried Rice w/ fish or chicken - GHC15.00</li>
+          <motion.li initial={{ opacity: 0, rotateZ: -10 }} whileInView={{ opacity: 1, rotateZ: 0 }} transition={{ type: "spring", stiffness: 60, damping: 10, delay: 0 }} viewport={{ once: true, amount: 0.3 }} className="py-2.5 scroll-py-1.5 font-light ">Club Sandwiches - GHC28.00</motion.li>
+          <motion.li initial={{ opacity: 0, rotateZ: -10 }} whileInView={{ opacity: 1, rotateZ: 0 }} transition={{ type: "spring", stiffness: 60, damping: 10, delay: 0.1 }} viewport={{ once: true, amount: 0.3 }} className="py-2.5 scroll-py-1.5 font-light">Jollof Rice w/ Chicken - GHC35.00</motion.li>
+          <motion.li initial={{ opacity: 0, rotateZ: -10 }} whileInView={{ opacity: 1, rotateZ: 0 }} transition={{ type: "spring", stiffness: 60, damping: 10, delay: 0.2 }} viewport={{ once: true, amount: 0.3 }} className="py-2.5 scroll-py-1.5 font-light">Fried Rice w/ fish or chicken - GHC15.00</motion.li>
+          <motion.li initial={{ opacity: 0, rotateZ: -10 }} whileInView={{ opacity: 1, rotateZ: 0 }} transition={{ type: "spring", stiffness: 60, damping: 10, delay: 0.3 }} viewport={{ once: true, amount: 0.3 }} className="py-2.5 scroll-py-1.5 font-light">Club Sandwiches - GHC28.00</motion.li>
+          <motion.li initial={{ opacity: 0, rotateZ: -10 }} whileInView={{ opacity: 1, rotateZ: 0 }} transition={{ type: "spring", stiffness: 60, damping: 10, delay: 0.4 }} viewport={{ once: true, amount: 0.3 }} className="py-2.5 scroll-py-1.5 font-light">Jollof Rice w/ Chicken - GHC35.00</motion.li>
+          <motion.li initial={{ opacity: 0, rotateZ: -10 }} whileInView={{ opacity: 1, rotateZ: 0 }} transition={{ type: "spring", stiffness: 60, damping: 10, delay: 0.5 }} viewport={{ once: true, amount: 0.3 }} className="py-2.5 scroll-py-1.5 font-light">Fried Rice w/ fish or chicken - GHC15.00</motion.li>
+          <motion.li initial={{ opacity: 0, rotateZ: -10 }} whileInView={{ opacity: 1, rotateZ: 0 }} transition={{ type: "spring", stiffness: 60, damping: 10, delay: 0.6 }} viewport={{ once: true, amount: 0.3 }} className="py-2.5 scroll-py-1.5 font-light">Club Sandwiches - GHC28.00</motion.li>
+          <motion.li initial={{ opacity: 0, rotateZ: -10 }} whileInView={{ opacity: 1, rotateZ: 0 }} transition={{ type: "spring", stiffness: 60, damping: 10, delay: 0.7 }} viewport={{ once: true, amount: 0.3 }} className="py-2.5 scroll-py-1.5 font-light">Jollof Rice w/ Chicken - GHC35.00</motion.li>
+          <motion.li initial={{ opacity: 0, rotateZ: -10 }} whileInView={{ opacity: 1, rotateZ: 0 }} transition={{ type: "spring", stiffness: 60, damping: 10, delay: 0.8 }} viewport={{ once: true, amount: 0.3 }} className="py-2.5 scroll-py-1.5 font-light">Fried Rice w/ fish or chicken - GHC15.00</motion.li>
         </ul>
       </div>
       </div>
