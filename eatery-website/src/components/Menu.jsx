@@ -11,7 +11,8 @@ const Menu = () => {
     <div className='w-full h-fit pt-3.5 pb-3.5 bg-black'>
       <div className="grid grid-cols-1 md:grid-cols-2">
         
-        <div className="py-3 px-4 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2">
+       
+        <div className="py-3 px-4 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 justify-items-center">
           <motion.img 
           initial={{ scale: 0, opacity: 0 }} 
           whileInView={{ scale: 1, opacity: 1 }}
@@ -53,6 +54,21 @@ const Menu = () => {
           viewport={{ once: true, amount: 0.3 }}
           src={menuImage5} className='w-80 h-fit px-1.5 rounded-lg py-1.5' alt="" />
         </div>
+        <div className='w-fit items-center '>
+        <h1 className="text-5xl md:text-6xl text-amber-500 font-extrabold font-stretch-75%  py-2 ps-1.5">Menu</h1>
+        <br />
+        <ul className="text-amber-500 text-2xl text-start">
+          <li className="py-2.5 scroll-py-1.5 font-light ">Club Sandwiches - GHC28.00</li>
+          <li className="py-2.5 scroll-py-1.5 font-light">Jollof Rice w/ Chicken - GHC35.00</li>
+          <li className="py-2.5 scroll-py-1.5 font-light">Fried Rice w/ fish or chicken - GHC15.00</li>
+          <li className="py-2.5 scroll-py-1.5 font-light">Club Sandwiches - GHC28.00</li>
+          <li className="py-2.5 scroll-py-1.5 font-light">Jollof Rice w/ Chicken - GHC35.00</li>
+          <li className="py-2.5 scroll-py-1.5 font-light">Fried Rice w/ fish or chicken - GHC15.00</li>
+          <li className="py-2.5 scroll-py-1.5 font-light">Club Sandwiches - GHC28.00</li>
+          <li className="py-2.5 scroll-py-1.5 font-light">Jollof Rice w/ Chicken - GHC35.00</li>
+          <li className="py-2.5 scroll-py-1.5 font-light">Fried Rice w/ fish or chicken - GHC15.00</li>
+        </ul>
+      </div>
       </div>
     </div>
     
